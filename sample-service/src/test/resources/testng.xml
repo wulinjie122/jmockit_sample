@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="module suite" verbose="1">
+    <test name="module suite tests">
+        <classes>
+
+        </classes>
+        <groups>
+            <run>
+                <exclude name="broken"/>
+                <exclude name="dbtest"/>
+                <exclude name="forge"/>
+                <include name="compare"/>
+                <include name="checkin"/>
+            </run>
+        </groups>
+    </test>
+</suite>
